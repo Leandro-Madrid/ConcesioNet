@@ -30,3 +30,4 @@ Este proyecto consiste en un sistema de compra y venta de autos online, desarrol
 - **Android Studio:** Entorno de desarrollo integrado (IDE) utilizado para desarrollar la aplicación Android.
 - **GitHub:** Repositorio remoto para control de versiones y colaboración.
 
+[ConcesioNet_MR.pdf](https://github.com/user-attachments/files/16405422/ConcesioNet_MR.pdf)
