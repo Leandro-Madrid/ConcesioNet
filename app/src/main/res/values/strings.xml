@@ -1,0 +1,78 @@
+<resources>
+    <!-- Textos para Main -->
+    <string name="app_name">Concesionet</string>
+    <string name="logo_description">Logo</string>
+    <string name="ver_autos_disponibles">Ver Autos Disponibles</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="registrarse">Registrarse</string>
+
+    <!-- Textos para Registro -->
+    <string name="registro_texto">Regístrate para empezar a vender!!</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="telefono">Teléfono</string>
+    <string name="password">Contraseña</string>
+    <string name="registrar">Registrarse</string>
+
+    <!-- Textos para Login -->
+    <string name="ingresar">Ingresar</string>
+
+    <!-- Textos para VerAutosActivity -->
+    <string name="elegir_auto">Elegí tu nuevo auto</string>
+    <string name="volver_inicio">Volver al inicio</string>
+    <string name="detalles">Ver detalles</string>
+
+    <!-- Textos para Vendedor -->
+    <string name="mis_autos">Mis Autos</string>
+    <string name="editar_mis_datos">Editar mis datos</string>
+    <string name="eliminar_mi_cuenta">Eliminar mi cuenta</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+
+    <!-- Textos para EditarVendedor -->
+    <string name="guardarvendedor">Guardar cambios</string>
+
+    <!-- Textos para AutosVendedor -->
+
+
+    <!-- Textos para AgregarAuto -->
+    <string name="Marca">Marca</string>
+    <string name="Modelo">Modelo</string>
+    <string name="Anio">Año</string>
+    <string name="Precio">Precio</string>
+    <string name="guardar">Guardar auto</string>
+
+    <!-- Textos para EditarAuto -->
+
+
+
+
+
+
+    <!-- Textos para AutoIndividualActivity -->
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="anio">Año</string>
+    <string name="precio">Precio</string>
+    <string name="ver_datos_vendedor">Ver datos del vendedor</string>
+    <string name="volver_lista">Volver a la lista</string>
+
+
+    <!-- Textos para VerVendedor -->
+    <string name="nombre_formato">%1$s</string>
+    <string name="apellido_formato">%1$s</string>
+    <string name="telefono_formato">%1$s</string>
+
+
+    <!-- Textos para ListaVendedor -->
+    <string name="agregar">Agregar auto</string>
+    <string name="volver">Volver</string>
+
+    <string name="nombre_no_encontrado">Nombre no encontrado</string>
+    <string name="apellido_no_encontrado">Apellido no encontrado</string>
+    <string name="telefono_no_encontrado">Teléfono no encontrado</string>
+
+
+
+
+</resources>
+

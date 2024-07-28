@@ -1,0 +1,93 @@
+<!-- item_auto.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/marcaTextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/marca"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/modeloTextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/modelo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/anioTextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/anio"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/precioTextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/precio"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <!-- Botón Ver Detalles -->
+    <Button
+        android:id="@+id/verDetalleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Detalles"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorExito"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <!-- Layout para Editar y Borrar -->
+    <LinearLayout
+        android:id="@+id/editarBorrarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/editarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/colorWarning"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/borrarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Borrar"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/colorDanger"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>
